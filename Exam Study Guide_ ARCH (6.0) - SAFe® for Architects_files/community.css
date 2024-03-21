@@ -1,0 +1,613 @@
+/******************************
+*
+	* Key:
+	* 1. Custom 
+	* 2. SLDS Overrides
+	* 3. Misc 
+*
+******************************/
+
+
+/******************************
+*
+    * 1. Custom 
+*
+******************************/
+
+/* Background Colors - Refactor to color tokens  */
+.bg_sai_blue{
+    background-color: #3d74ba!important;
+}
+.bg_sai_dkblue{
+    background-color: #264263!important;
+}
+.bg_sai_green{
+    background-color: #adbd23!important;
+}
+.bg_sai_gold{
+    background-color: #f9bb4e!important;
+}
+.bg_sai_gray{
+    background-color: #babcbe!important;
+}
+
+/* Body */
+html{
+  font-size: 1.0rem!important;   
+}
+body, p{
+  font-size: 1.0rem!important;   
+} 
+.selfServiceCaseArticleDeflection .selfServiceSimpleArticleItem .item-title-link,
+.selfServiceCaseArticleDeflection .selfServiceSimpleArticleItem .item-title-link .item-title,
+.comm-case-deflection__item,
+.case-article-deflection-title-link{
+  font-size: 16px!important;   
+}
+.siteforceThemeLayoutStarter{
+  font-size: .9rem!important;   
+} 
+
+
+/* Cards  */
+*.member-card, .test_me {
+	min-height: 241px!important;
+	border: 1px solid #f4f4f4!important; 
+	border-radius: 4px!important; 
+	padding: 20px!important; 
+	background-color: white!important;
+}
+.nbaImage{
+    min-height: 180px!important;
+}
+*.slds-card.forceCommunityNbaWidget{
+    border: none!important;
+    background-color: transparent!important;
+    padding: 0!important;
+    margin: 0!important;
+}
+*.slds-card.forceCommunityNbaWidget .slds-box{
+    background-color: white!important;
+}
+
+/* Footer */
+.slds-docked-form-footer{
+    z-index: 2!important;
+}
+
+/* Homepage Cards */
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flip-card {
+  background-color: white;
+  width: 300px;
+  min-height: 240px;
+  margin: 10px auto;
+  border: 1px solid #f1f1f1;
+  display: block;
+}
+a.flip-card h4{
+    color: black;
+}
+.flip-card-inner {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Icons for Homepage Tiles */
+.icon-bg{
+    height: 90px; 
+    width: 90px; 
+    margin: 0 auto; 
+    background-color: gray; 
+    border-radius: 50%; 
+    align-items: center; 
+    display: flex;
+}
+.icon-img{
+    margin: 0 auto;
+}
+
+/* Partner Portal Stuff */
+.btn-outline-white, .content-info .gform_button {
+    color: #fff !important;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
+    border: 2px solid #ffffff;
+    padding: .5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.btn-outline-white:hover, .content-info .gform_button:hover {
+    color: #292b2c !important;
+    background-color: #fff;
+    border-color: #fff;
+    text-decoration: none !important;
+}
+.btn-outline-green:hover, .content-info .gform_button:hover {
+    color: #292b2c !important;
+    background-color: #fff;
+    border-color: #fff;
+    text-decoration: none !important;
+}
+.btn-outline-green, .content-info .gform_button {
+    color: #fff !important;
+    background-image: none;
+    background-color: #aebd24;
+    padding: .5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 1rem;
+    transition: all .2s ease-in-out;
+}
+.tailor-grow:hover, .tailor-grow:focus, .tailor-grow:active {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.05);
+}
+.tailor-grow {
+    -webkit-transition-property: transition-property-names(transform, "webkit");
+    -moz-transition-property: transition-property-names(transform, "moz");
+    transition-property: transition-property-names(transform, false);
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    transition-duration: .3s;
+    height: 400px;
+}
+#partner {
+    font-size:18px;
+}
+
+/* Service Help Button */
+.forceCommunityEmbeddedServiceHelpButton .flatButton{
+    border-radius: 4px 4px 0 0!important;
+}
+.embeddedServiceSidebarButton{
+    border-radius: 0px!important;
+}
+.contactSupportButton{
+    width: auto!important;
+    border-radius: 4px!important;
+}
+.forceCommunityContactSupportButton{
+    width: auto!important;
+    border-radius: 4px!important;
+}
+.contactSupportButton.forceCommunityContactSupportButton{
+    width: auto!important;
+    border-radius: 4px!important;
+}
+
+
+/* Tile Links */
+.cCommunityTileLink span.tile-label{
+    text-transform: none!important;
+}
+
+/* Tile Link */
+.cCommunityTileLink span.tile-label{
+    text-transform: capitalize!important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: rgb(38, 66, 99) !important;
+}
+*.tile-label{
+    text-transform: capitalize!important;   
+}
+.tile-container.cCommunityTileLink {
+    position: relative;
+    float: left;
+    display: inline-block;
+    height: 240px  !important;
+    width: 292px  !important;
+    margin: 10px 10px 10px 10px!important;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+*.cCommunityTileLink:hover {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0);
+    opacity: 0.9;
+}
+
+/* Service Help Button */
+.forceCommunityEmbeddedServiceHelpButton .flatButton{
+    border-radius: 6px 6px 0 0!important;
+}
+.embeddedServiceSidebarButton{
+    border-radius: 0px!important;
+}
+
+/* Video Catalogs Stuff */
+.vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne {
+    cursor: pointer;
+    overflow: visible;
+    vertical-align: top;
+    width: 22% !important;
+    min-width: 130px !important;
+    height: 175px !important;
+}
+@media all and (min-width: 601px) and (max-width: 1045px) {
+   .vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne {
+    cursor: pointer;
+    overflow: visible;
+    vertical-align: top;
+    width: 200px !important;
+    height: 175px !important;
+    }
+}
+@media all and (max-width: 600px) {
+   .vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne {
+    cursor: pointer;
+    overflow: visible;
+    vertical-align: top;
+    width: 130px !important;
+    height: 130px !important;
+    }
+}
+.vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne .titleCatalog {
+    padding-bottom: 5%; /*refactor to use SLDS layout modifiers */
+    padding-top: 5%; /*refactor to use SLDS layout modifiers */
+    background-color: rgb(61, 116, 186);
+    text-transform: none !important;
+    height: 20px !important;
+}
+.vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne .backgroundImage {
+    background-size: cover;
+    opacity: 1 !important;
+    margin-top: 20px !important;
+    width: 99.8% !important;
+}
+.vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne .hoverColor {
+    opacity: 1;
+    margin-top: 20px;
+    width: 99.8% !important;
+}
+
+.vtuiCatalogsCmp.catalog-container .results {
+    text-align: center;
+}
+
+.vtuiMediaCmp .media-grid_list-view .media-item .media-item__descr {
+    min-height: 60px;
+    padding: 0 0 2.5rem 0 !important;
+    overflow-x: hidden;
+    text-align: left !important;
+    font-size: 14px !important;
+}
+.vtuiMediaCmp .media-grid_list-view .media-item .media-item__title {
+    margin-right: 30px;
+    text-align: left !important;
+}
+
+/* GetFeedback Stuff */
+.presenter-brand-footer {
+    text-align: right;
+    display: none !important;
+}
+.SurveyNavBar {
+    display: none !important;
+}
+.SurveyNavBar .presenter-brand-footer {
+    display: none !important;
+}
+
+.cMembershipExpiration .summaryHeader {
+    color: #000;
+    display: inline-block;
+    font-weight: 400!important;
+    font-size: 24px!important;
+}
+.summaryHeader.slds-m-around_x-small {
+    margin: 0!important;
+}
+
+/* */
+.vtuiCatalogsCmp {
+   background-color: #f8f8fa !important;
+}
+
+.vtuiAllMediaCmp {
+   background-color: #f8f8fa !important;
+}
+.vtuiPlaylistCmp {
+
+   background: #f8f8fa !important;
+}
+.vtuiPlaylistCmp .meta__descr-text {
+   color: #181819 !important;
+}
+
+/******************************
+*
+    * 2. SLDS Overrides
+*
+******************************/
+
+/* Chatter */
+/* Chatter Updates */
+.forceChatterFeedCommentInputDesktop.always-show-actions .commentActionPanel, .forceChatterFeedCommentInputDesktop.expanded .commentActionPanel {
+    display: none !important;
+    margin-top: 0;
+}
+
+.forceChatterPublisherAttachments.desktop .cuf-attachmentsList {
+    width: inherit;
+    display: none !important;
+}
+
+.forceChatterPublisherAttachments .cuf-attachmentsItem {
+    display: none !important;
+}
+
+/* File Preview */
+.forceContentPreviewPlayerTopToolbar .preview-top-toolbar .file-preview-buttons{ 
+    min-width: unset; float: right; 
+}
+.forceContentPreviewPlayerTopToolbar .preview-top-toolbar .file-preview-buttons button[title="View File Details"],
+.forceContentPreviewPlayerTopToolbar .preview-top-toolbar .file-preview-buttons button[title="Public Link"],
+.forceContentPreviewPlayerTopToolbar .preview-top-toolbar .file-preview-close {
+    display:none; 
+}
+
+
+/* Footer */
+.slds-docked-form-footer{
+  background-color: #EAECEC!important;
+}
+
+/* Headings */
+
+/* H1 */
+.forceCommunityRichText h1, .h1{
+    font-size: 32px!important;
+    line-height: 44px!important;
+    font-weight: 400!important;
+    margin: 12px 0 0 0;
+}
+/* H2 */
+.cCertificationSummary .summaryHeader,
+.cSai_ContactUs h1,
+.selfServiceCaseArticleDeflection .header-title,
+.selfServiceCaseCreate .caseHeader .bBody .headerLabel,
+.slds-page-header__title, 
+.forceCommunityRichText h2, 
+.h2{
+    font-size: 24px!important;
+    line-height: 36px!important;
+    font-weight: 400!important;
+}
+/* H3 */
+.card.member-card h3,
+.forceCommunityRichText h3, 
+.h3{
+    font-size: 20px!important;
+    line-height: 32px!important;
+    font-weight: 600!important;
+}
+.test-propositionDescription{
+    font-size: 20px!important;
+    line-height: 32px!important;
+    font-weight: 600!important;
+    text-align: center;
+}
+/* H4 */
+.flip-card-inner .forceCommunityRichText h4,
+.forceCommunityRichText h4{
+    font-size: 18px!important;
+    line-height: 30px!important;
+    font-weight: 400!important;
+}
+/* H5 */
+.forceCommunityRichText h5, .h5{
+    font-size: 16px!important;
+    line-height: 28px!important;
+    font-weight: 600!important;
+}
+/* H5 */
+.forceCommunityRichText h6, .h6{
+    font-size: 16px!important;
+    line-height: 28px!important;
+    font-weight: 400!important;
+    text-transform: uppercase!important;
+}
+/* Body text */
+/* TODO: Hella refactoring */
+.slds-text-body_small {     
+    font-size: 16px!important;
+}
+
+/* Icons */
+.siteforceServiceBody .cNotifications .unsNotificationsCounter{
+    color: #fff!important;
+}
+.slds-global-header__button_icon:hover:not(:disabled), .slds-global-header__button_icon:focus, .slds-global-header__button--icon:hover:not(:disabled), .slds-global-header__button--icon:focus {
+    fill: rgb(145, 145, 145)!important;
+}
+.cCustomProfileMenu .triggerLinkItemContainer .profileName{
+    color: #fff!important;   
+}
+.cCustomProfileMenu .triggerLinkItemContainer:hover>.profileName {
+    color: rgb(145, 145, 145)!important;
+}
+.cCustomProfileMenu .triggerLinkItemContainer>lightning-icon>lightning-primitive-icon>svg.slds-icon-text-default {
+    fill: rgb(255, 255, 255)!important;
+}
+.cCustomProfileMenu .triggerLinkItemContainer:hover>lightning-icon>lightning-primitive-icon>svg.slds-icon-text-default {
+    fill: rgb(145, 145, 145)!important;
+}
+
+/* Lists */
+ul.list-no-style{
+    list-style: none!important;
+    padding: 0!important;
+}
+ul.list-no-style li{
+    list-style: none!important;
+    padding: 0!important;
+}
+.forceCommunityRichText ol li, .forceCommunityRichText ul li {
+    padding-left: 0;
+}
+
+/* Settings */
+/* hide sections of OOTB user settings component */
+.forceCommunityUserSettings .locationSection .sectionbox:nth-child(1), /* Location - Language */
+/*.forceCommunityUserSettings .locationSection .sectionbox:nth-child(2),*/ /* Location - Locale */
+.forceCommunityUserSettings .profileVisibilitySection {
+    display:none;
+}
+
+/* Tabs */
+.uiTabset--default {
+   background-color: rgb(255, 255, 255, 0)!important;
+}
+
+
+/* Text Links */
+.selfServiceTopicTrendingArticles42 .slds-grid--vertical a:link{
+    color: #3d74ba;
+}
+
+/* Trending Articles */
+.comm-topic-trending-articles h2{
+    font-size: 24px!important;
+    line-height: 36px!important;
+    font-weight: 400!important;
+}
+.comm-topic-trending-articles .slds-text-body_small{
+    font-size: 16px;
+}
+
+/* Trending Articles by Topic */
+.selfServiceTopicTrendingArticles42 .slds-grid--vertical a{
+    color: rgb(38, 66, 99)!important;    
+}
+
+/******************************
+*
+    * 3. Misc 
+*
+******************************/
+
+.cMembershipExpiration .expiredCertsSections {
+	font-size: 14px!important;
+}
+
+/* Support */
+.topicHierarchy-child{
+    font-size: 1.0rem!important;
+}
+
+/* Hide Stuff */
+.profile-menuItem.myAccount.uiMenuItem{
+    display: none;
+}
+
+@media all and (max-width: 750px) {
+    body.comm-page-login-home #rightFrame {
+        display:none;
+    }
+    body.comm-page-login-home #LoginNew {
+        width:100% !important;
+    }
+}
+.salesforceIdentityCommunityLogo2 .communityLogo {
+    max-width: 100%;
+    width: 100% !important;
+}
+
+#LoginNew a:link,
+#LoginNew a:visited{
+    color: #3d74ba!important;
+}
+
+.salesforceIdentityLoginForm2 .inputBox {
+    width: 85%!important;
+}
+
+/* */
+.selfServiceBaseCaseCreation .two-column .mdp-container, 
+.selfServiceBaseCaseCreation .two-column .deflection-container {
+    margin-top: 16px!important;
+}
+
+.selfServiceCaseCreate .caseHeader {
+    margin-bottom: 30px!important;
+}
+@media only screen and (min-aspect-ratio: 4/3) and (min-width: 48em), 
+only screen and (min-width: 64.0625em) {
+    .selfServiceCaseCreate .two-column .caseHeader {
+        padding-bottom: 0!important;
+    }
+}
+.selfServiceArticleListItem {
+    padding: 20px!important;
+}
+.forceCommunityTileMenuItem{
+    z-index: 2!important;
+}
+
+/* Bullets */
+ul.no-list-style {
+  list-style: none; /* Remove default bullets */
+}
+
+ul.green li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #ACBE37; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+ul.blue li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #3D74BA; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+ul.gray li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #737C92; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+ul.gold li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #F9BB4E; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/**/
+.slds-card_empty .slds-card__body,.slds-card--empty .slds-card__body{text-align:center}.slds-card{position:relative;padding:0;background:rgb(255, 255, 255);border:1px solid rgb(212, 212, 212);border-radius:.25rem;background-clip:padding-box;box-shadow:none}.slds-is-mobile .slds-card{border-color:transparent;border-radius:0}.slds-card+.slds-card{margin-top:1rem}.slds-card__body_inner,.slds-card__body--inner{padding:0 1rem}.slds-card__header{padding:.75rem 1rem 0;margin:0 0 .75rem}.slds-card__header-title{font-size:1rem;line-height:1.25}.slds-is-mobile .slds-card__header-title{font-size:1.125rem;font-weight:400}.slds-card__header-link{color:inherit;font-weight:400}.slds-card__body{margin-top:.75rem;margin-bottom:.75rem}.slds-card__body:empty,.slds-card__footer:empty{display:none}.slds-card__footer{padding:.75rem 1rem;margin-top:.75rem;text-align:right;font-size:.8125rem;border-top:1px solid rgba(0, 0, 0, 0)}.slds-card__footer-action{display:block}.slds-card__tile{margin-top:.75rem}.slds-region__pinned-left .slds-card,.slds-region__pinned-left .slds-card-wrapper,.slds-region__pinned-left .slds-card_boundary,.slds-region__pinned-left .slds-tabs_card,.slds-region__pinned-right .slds-card,.slds-region__pinned-right .slds-card-wrapper,.slds-region__pinned-right .slds-card_boundary,.slds-region__pinned-right .slds-tabs_card{border-radius:0;border:0;border-bottom:1px solid rgb(212, 212, 212);box-shadow:none}.slds-region__pinned-left .slds-card:last-child,.slds-region__pinned-left .slds-card-wrapper:last-child,.slds-region__pinned-left .slds-card_boundary:last-child,.slds-region__pinned-left .slds-tabs_card:last-child,.slds-region__pinned-right .slds-card:last-child,.slds-region__pinned-right .slds-card-wrapper:last-child,.slds-region__pinned-right .slds-card_boundary:last-child,.slds-region__pinned-right .slds-tabs_card:last-child{border-bottom:0}.slds-card-wrapper{padding:1rem;background:rgb(255, 255, 255);border:1px solid rgb(212, 212, 212);border-radius:.25rem;background-clip:padding-box;box-shadow:none}.slds-card-wrapper .slds-card__header,.slds-card-wrapper .slds-card__body,.slds-card-wrapper .slds-card__footer{padding-left:0;padding-right:0}.slds-card .slds-card,.slds-card .slds-card-wrapper,.slds-card-wrapper .slds-card,.slds-card-wrapper .slds-card-wrapper,.slds-modal .slds-card,.slds-modal .slds-card-wrapper,.slds-tabs_default .slds-card,.slds-tabs_default .slds-card-wrapper,.slds-tabs--default .slds-card,.slds-tabs--default .slds-card-wrapper,.slds-tabs_card .slds-card,.slds-tabs_card .slds-card-wrapper,.slds-tabs_card.slds-tabs_card .slds-card,.slds-tabs_card.slds-tabs_card .slds-card-wrapper{background:rgb(255, 255, 255);border:0;box-shadow:none}.slds-card .slds-card_boundary,.slds-modal .slds-card_boundary,.slds-tabs_default .slds-card_boundary,.slds-tabs--default .slds-card_boundary{border:1px solid rgb(212, 212, 212);border-radius:.25rem}.slds-tabs_card,.slds-tabs_card.slds-tabs_card{background:rgb(255, 255, 255);padding:.75rem 1rem;box-shadow:none;border:1px solid rgb(212, 212, 212);border-radius:.25rem}.slds-tabs_card .slds-card,.slds-tabs_card .slds-card-wrapper,.slds-tabs_card.slds-tabs_card .slds-card,.slds-tabs_card.slds-tabs_card .slds-card-wrapper{padding-left:0;padding-right:0}.slds-tabs_card .slds-card__header,.slds-tabs_card .slds-card__body,.slds-tabs_card .slds-card__footer,.slds-tabs_card.slds-tabs_card .slds-card__header,.slds-tabs_card.slds-tabs_card .slds-card__body,.slds-tabs_card.slds-tabs_card .slds-card__footer{padding-left:0;padding-right:0;margin-left:0;margin-right:0}.slds-tabs_card .slds-card__header,.slds-tabs_card.slds-tabs_card .slds-card__header{padding-top:0}.slds-tabs_card .slds-card_boundary,.slds-tabs_card.slds-tabs_card .slds-card_boundary,.slds-card-wrapper .slds-card_boundary{border:1px solid rgb(212, 212, 212);border-radius:.25rem}.slds-tabs_card .slds-card_boundary .slds-card__header,.slds-tabs_card.slds-tabs_card .slds-card_boundary .slds-card__header,.slds-card-wrapper .slds-card_boundary .slds-card__header{padding:.75rem 1rem 0}.slds-tabs_card .slds-card_boundary .slds-card__body_inner,.slds-tabs_card .slds-card_boundary .slds-card__body--inner,.slds-tabs_card.slds-tabs_card .slds-card_boundary .slds-card__body_inner,.slds-tabs_card.slds-tabs_card .slds-card_boundary .slds-card__body--inner,.slds-card-wrapper .slds-card_boundary .slds-card__body_inner,.slds-card-wrapper .slds-card_boundary .slds-card__body--inner{padding:0 1rem}.slds-tabs_card .slds-card_boundary .slds-card__footer,.slds-tabs_card.slds-tabs_card .slds-card_boundary .slds-card__footer,.slds-card-wrapper .slds-card_boundary .slds-card__footer{padding:.75rem 1rem}
+
+
+
+
+

@@ -1,0 +1,157 @@
+//Create a JIRA ticket for the following tasks
+To be able to do Flow Telemetry and Flow events 
+we need to enable PTP protocol in ACI 
+
+Synchronize the clocks:
+
+Use messages, such as Sync and Delay_Req, to synchronize the clock between the master and clients.
+
+PTP Clock Types
+PTP Topology
+PTP Topology With Various PTP Node Types
+PTP BMCA
+PTP Clock Synchronization
+PTP Multicast, Unicast, and Mixed Mode
+PTP Transport Protocol
+PTP Signaling and Management Messages
+PTP Profiles
+
+This can use internal resources but may require a change management process 
+(SBB)
+
+
+####
+Logging:
+
+Logging - Datacenter is a source logging data that is needed by various consumers
+SIEM
+OPS
+CMDB 
+Security 
+Historical 
+and ART 
+i would like to rationalize the way we provide this data
+Format, frequency and pre/post processing if needed or required.
+Integration with upstream platforms (Splunk, Service Now , Security etc)
+Kafka topics 
+Model driven Telemetry
+Stream Telemetry
+
+Presentation Summary - Logging Rationalization
+
+Audience: System Architect - Datacenter Infra IT
+
+Objective:
+The objective of this presentation is to discuss the rationalization of logging in the datacenter infrastructure. We will cover various aspects such as log types, log uses and consumers, protocols, and log data formats. The goal is to optimize operations, analytics, incident management, dashboards, utilization, and trending.
+
+Key Points:
+- ACI as the primary source of data for varied use cases
+- Rationalizing log types and their specific uses and consumers
+- Evaluating protocols and log data formats for efficient processing
+- Integration with CMDB for improved asset management
+- Leveraging SIEM and Security solutions for enhanced threat detection and response
+- Integration with Splunk and ServiceNow for centralized log management and incident handling
+- Enabling operations and upgrade management through comprehensive logging
+
+Please let me know if you need any further information.
+Yes i need 
+Software Telemetry provides visibility to control-plane protocol state, environmental info, and counters, such as:
+•	Utilization of Operational (MAC address, unicast/multicast routing/IPv4/IPV6 tables, TCAM)
+•	Configuration (VLANs, VRFs, EPGs, BD, LPM)
+•	Hardware resources (Ports in admin UP state, switch bandwidth)
+•	Switch Environmentals (CPU, memory, temperature, power, fan speed)
+•	Interface statistics (Rate, counters, CRC errors, LLDP flaps, routing layer errors)
+Hardware Telemetry is provided by hardware ASIC. It can be divided in:
+•	Data plane flow
+•	ASIC state data
+Source of Hardware Telemetry are:
+•	FT – Flow Telemetry
+•	FTE – Flow Telemetry Events
+•	SSX – Streaming Statistics eXport
+Flow Telemetry captures full data-plane packet flow information and uses the flow records stored in the flow table. A flow record consists of the following:
+•	5-tuple flow information
+•	Interface/queue information
+•	Flow start/stop time
+•	Flow latency
+Flow Telemetry Events triggers notifications or events when certain conditions are detected in the packets of a flow. These detected events are first collected in a first-in, first-out (FIFO) method within the flow table. Once a predetermined threshold is reached, these events are exported.
+An event packet typically includes information such as the following about the flow:
+•	Flow tuple
+•	Event reason
+•	Drop info (for example: acl_drop, policer_drop, policy_drop, buffer_drop, ids_drop, forward_drop)
+•	TCP-related fields (for example flags, seq/ack num, and so on)
+•	Interface info (for example srcid, oport, oclass, and so on)
+•	L2 or L4 payload length
+Streaming Statistics Export (SSX) module streams ASIC statistics based on user configuration. It can read a register or (directly accessible) memory of the switch. SSX supports many opcodes and general-purpose registers to host many applications. SSX is a hardware-assisted export of various ASIC counters, like interface counters, drop counters and so forth, that can be captured very frequently, without involving a switch CPU. Examples of these hardware-assisted captures are:
+•	Interface counters (packets/bytes/drops)
+•	Ingress/Egress queue depth
+•	Ingress/Egress queue drops
+•	Egress queue microbursts
+•	Buffer depth
+•	User-defined streaming parameters
+
+ 
+######
+
+
+// JIRA STORY
+
+Summary:
+As a team, we need to improve the design and architecture of our datacenter in both the medium term and long term.
+
+Description:
+Currently, our datacenter architecture is based on SDN platforms, with a focus on migrating from classic 3-tier architectures to Leaf/Spine architectures. However, this approach has resulted in technical debt, manual operations, and non-optimal design limitations that are impacting our operations and customer enablement.
+
+In the medium term, we aim to address known scalability issues and automate network provisioning by working with VMWARE for integration with ACI. This includes upgrading to version 6.05M, resolving DTA/P horizontal issues, and disabling MCP as advised by Joeri. We also plan to design dynamic domain constructs, such as dynamic ranges and VMM segmentation, to improve network provisioning.
+
+In the long term, we want to analyze and update our AS-IS (AS-Built) datacenter, engage ART cross-domain design approaches, and automate the provisioning of basic network constructs like VLANs. We also aim to extend our L2 domains using different namespaces for specific workloads, plan for datacenter evolution towards regional availability zones ready for cloud integrations, and establish a DevOps model for DC connectivity. Additionally, aligning DC services with customer SLAs is a priority.
+
+Acceptance Criteria:
+- Scalability issues are mitigated through automated network provisioning.
+- Upgraded to version 6.05M with resolved DTA/P horizontal issues.
+- MCP is disabled as advised by Joeri.
+- Dynamic domain constructs are designed and implemented.
+- AS-IS datacenter analysis and updates are completed.
+- ART cross-domain design approaches are engaged.
+- Basic network constructs like VLANs are provisioned automatically.
+- L2 domains are extended using different namespaces.
+- Datacenter evolution towards regional availability zones is planned and implemented.
+- DevOps model for DC connectivity is established.
+- DC services are aligned with customer SLAs.
+
+
+#####
+Nexus Dashboard Insights
+After the deployment of Dashboard insight create the PCV, Compliancy and Policy (intent) and Cleanup (tasks)
+Presentations - to  stakeholders
+Template - agreed approved - by David
+Deployment - in other sites (NTT OPS - handover)
+
+We are preparing a report for senior users and stakeholders​
+
+Deliver value proposition report​
+
+Add compliance rules ​
+
+Add policy check rules – DCLAN, Security and resource utilization under constraints​
+
+Add pre-change and post change configuration checks​
+
+Analyze findings and determine if Cleanup (tasks) ar needed​
+
+#####
+ASML datacenters, are built on SDN platforms, but the current architecture.
+However the design approach was to assist in the migration of classic 3 tier architectures to Leaf / Spine architectures.
+This meant that we use the NetCentric migration strategy, and for the reason we have technical debt, manual operations and non-optimal desing limitations that are affecting our operations and customer enablement.
+During this phase i would like to analyse and update on AS-IS (AS-Built), engage ART cross domain design approaches that 
+Allow  automated provisioning of basic network constructs like VLANS, extend our L2 domains but using other name spaces for certain work-loads
+Plan for and anticipate datacenter evoulution towards Regional availability zones that are ready for cloud integrations 
+DevOps model for DC Connectivity.
+Align DC services with customer SLA's
+
+People (Celal) 
+Onboard to the ART and NTT (ops)
+Choose tasks with APPC handover 
+Greenhouse - Highna
+Plan / Prepare and do handover.
+
+Inter-DC Security 

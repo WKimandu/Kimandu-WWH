@@ -1,0 +1,47 @@
+DUAL NICS VM 
+different Port-groups
+L2 Loops can occur under certain configuration 
+Control plane vs Data Plane 
+--  Data Plane is  still vulnerable from Loops
+-- Disable MCP on certain interfaces / or       ports
+ 
+Either scaling horizontally - caps at 250 per ports
+I don't want you to bridge VM's in this environment
+Non standard - configuration -  on the P&T.
+
+
+
+[4:29 PM] William Kimandu
+DUAL NICS VM 
+different Port-groups
+L2 Loops can occur under certain configuration 
+Control plane vs Data Plane 
+--  Data Plane is  still vulnerable from Loops
+-- Disable MCP on certain interfaces / or       ports
+ 
+Either scaling horizontally - caps at 250 per ports
+I don't want you to bridge VM's in this environment
+Non standard - configuration -  on the P&T.
+ 
+ 
+ 
+[4:34 PM] William Kimandu
+Service Description: what is  our service and what are our constraints
+[4:40 PM] William Kimandu
+Fulfill customer demand
+MCP 
+Risk 
+service - description 
+ops NTT has to agree 
+Joint responsility 
+Risk  ==> Mid-term is upgrade
+ Horizontal scaling - 
+
+[4:41 PM] Michael Van Kleij (mvanklei)
+F2533 & F2534
+[4:41 PM] Michael Van Kleij (mvanklei)
+https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/all/syslog/guide/b_ACI_System_Messages_Guide/m-aci-f2x-messages.html 
+
+
+Service Description: what is 
+and our constraints 

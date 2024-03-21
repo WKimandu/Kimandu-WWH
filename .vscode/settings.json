@@ -1,0 +1,32 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.find.autoFindInSelection": "always",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "diffEditor.codeLens": true,
+    "files.autoGuessEncoding": true,
+    "workbench.editor.autoLockGroups": {
+        "workbench.editor.chatSession": true
+    },
+    "scm.alwaysShowActions": true,
+    "scm.alwaysShowRepositories": true,
+    "scm.providerCountBadge": "visible",
+    "terminal.integrated.allowMnemonics": false,
+    "timeline.pageOnScroll": false,
+    "chat.editor.wordWrap": "on",
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "ansible.ansible.reuseTerminal": true,
+    "css.autoValidation": "Save",
+    "debug.javascript.autoAttachFilter": "smart",
+    "jupyter.allowUnauthorizedRemoteConnection": true,
+    "mediaPreview.video.loop": true,
+    "npm.enableRunFromFolder": false,
+    "pdf-preview.default.sidebar": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.addImport.exactMatchOnly": true,
+    "python.analysis.completeFunctionParens": true,
+    "remote.WSL.debug": true,
+    "githubRepositories.autoFetch.interval": 360,
+    "githubRepositories.experimental.prefetch": false,
+    "dotnetAcquisitionExtension.enablePreviewFeatures": true
+}

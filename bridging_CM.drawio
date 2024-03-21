@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="jMBS3SzymBWS3P7Sc0lp" name="Page-1">
+        <mxGraphModel dx="788" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="130" y="100" width="444.4" height="276.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.vnic;" vertex="1" parent="20">
+                    <mxGeometry x="160" y="174.8" width="34.8" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;shape=link;" edge="1" parent="20" source="3" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.virtual_host;" vertex="1" parent="20">
+                    <mxGeometry x="150" width="170" height="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="html=1;shape=link;" edge="1" parent="20" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.vnic;" vertex="1" parent="20">
+                    <mxGeometry x="270.4" y="174.8" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.virtual_machine;" vertex="1" parent="20">
+                    <mxGeometry x="210" y="160" width="44.8" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="html=1;shape=link;" edge="1" parent="20" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.switch;" vertex="1" parent="20">
+                    <mxGeometry x="108" y="256.00000000000006" width="64" height="10.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.switch;" vertex="1" parent="20">
+                    <mxGeometry x="270.4" y="256.00000000000006" width="64" height="10.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="port-group&amp;nbsp; 02" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry x="334.4" y="245.2" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;shape=link;" edge="1" parent="20" source="10" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="NIC-02" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry x="290" y="174.8" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="NIC-01" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry x="110" y="174.8" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="port-group 01" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="246.39999999999998" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Bridging" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="141.09999999999997" y="230.39999999999998" width="182.6" height="16" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,4 @@
+git push https://wkimandu:Hknet_!964@github.com/wkimandu/GitOps_Local.git --al
+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
+
+git config --global credential.helper '!f() { sleep 1; echo "username=git token=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"; }; f'
