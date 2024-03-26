@@ -1,0 +1,4 @@
+Do we have a detailed hardening baseline for an SDN platform like ACI?
+
+FRA ==> ACI 
+

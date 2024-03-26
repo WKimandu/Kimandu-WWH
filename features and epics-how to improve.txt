@@ -21,7 +21,8 @@ Making clear arrangements with our stakeholders is the way to go. As an autonomo
 My two cents, would advise to start with never planning a feature that does not have a mutually agreed upon set of acceptance criteria and our DoD approval. But mind you, this will be hard! As we will have to push back on things that have ‘management priority’ but are not yet clear enough..
 
 The whole idea of SAFe and Agile is that we work with focus on things effectively, and that is only possible if for 1, we don’t work on too many things at the same time. 2, we have clear goals and deliverables, tangible things we can work towards. 3, we make sure we do not get distracted.
-A team that works on 3 items and finishes all 3 in 10 weeks is more productive and valuable than a team that works on 15 items and delivers 7 halves every 10 weeks. Having management understand and support that is difficult, but if we as a team show we are in control, we know what we are working on and can show clearly that we are an efficient team, we’ll also get that thrust and respect.
+A team that works on 3 items and finishes all 3 in 10 weeks is more productive and valuable than a team that works on 15 items and delivers 7 halves every 10 weeks. 
+Having management understand and support that is difficult, but if we as a team show we are in control, we know what we are working on and can show clearly that we are an efficient team, we’ll also get that thrust and respect.
 
 How do we want to realize this? Let’s give structure to these great thoughts =)
 
@@ -35,15 +36,21 @@ Elaborating on my statement(s) in our Daily of today, I will try to explain it a
 
 Looking at our features and epics past year, some of the features were hampered by decision making, unclear statements/points of view or other external factors. Personally, it frustrates the hell out me, also needing me to motivate the team to continue, leaving unfinished items for what it is and start working on new features.
 
-But, yes, we did accomplish a lot of stuff, which were not really tangible for customers and/or management. Again, we’re all senior engineers, very knowledgeable and have the intend to go deep(er) on technical solutions/directions. This is a strength, but could also be a pitfall…
+But, yes, we did accomplish a lot of stuff, which were not really tangible for customers and/or management.
+Again, we’re all senior engineers, very knowledgeable and have the intend to go deep(er) on technical solutions/directions. This is a strength, but could also be a pitfall…
 
 So, how about coming PI, PI24.2? 
 
-I want to distinguish features on features where we go ‘deeper’ and features where we go for the quick kill. Going deeper means, thinking about future readiness, scalability etc. Quick kill, simply look at what is asked and just stick to that and finish it Hackathon style, maybe with multiple engineers in a room for two days and nail it…
+I want to distinguish features on features where we go ‘deeper’ and features where we go for the quick kill.
+Going deeper means, thinking about future readiness, scalability etc. 
+Quick kill, simply look at what is asked and just stick to that and finish it Hackathon style, maybe with multiple engineers in a room for two days and nail it…
 
-My intention is to deliver quickly on certain features, giving more room for unplanned features, or features which we want to give more attention. But we also need to be sharp on ‘Acceptance Criteria’s’ and ‘Definition of Done’. When a customer commits to those, any new items coming from them should end up on the backlog/unplanned. Stick to what we have committed to…
+My intention is to deliver quickly on certain features, giving more room for unplanned features, or features which we want to give more attention. 
+But we also need to be sharp on ‘Acceptance Criteria’s’ and ‘Definition of Done’. 
+When a customer commits to those, any new items coming from them should end up on the backlog/unplanned. Stick to what we have committed to…
 
-The reasoning is that we have clear picture on what we work upon and on what we will deliver and giving more room for innovation. My task for coming month is the review and refine the roadmap with the knowledge I have right now. This would help us to set priority and focus.
+The reasoning is that we have clear picture on what we work upon and on what we will deliver and giving more room for innovation.
+My task for coming month is the review and refine the roadmap with the knowledge I have right now. This would help us to set priority and focus.
 
 I hope this will help every one and keeps everyone motivated. Above thinking is up for input/feedback/discussion of course. Deep done it has also a bit of a ‘f*ck it’ mentality…everything to make our life a bit easier ;)
 

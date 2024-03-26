@@ -1,0 +1,24 @@
+CSR 
+Owner
+FAQ 
+PKI Certificate [REQ 893]
+Intermediate
+Owner - PO (NTT OPS) 
+TLO - for ACI
+
+Backup 
+Application - Owner - 
+Service - 
+DAY 00 operations 
+
+2018  - 
+
+ASSET - LCM - depreciation - insuarance
+REQ 145
+
+Cloud Native Tools
+
+Code with If then else statements
+Multicast - L2 , L3 
+Frans Van Holten
+Monitoring - automation 

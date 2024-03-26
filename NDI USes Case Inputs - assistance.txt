@@ -1,0 +1,29 @@
+Goal: Cisco, the center vendor, has offered to conduct a proof of value based on the Nexus Dashboard Insights (NDI) Platform.
+We have organized to have a Vendor Engineer on Site to lead us with the Proof of concept
+
+Cisco has organised a conference call withe the stakeholders to discuss the use cases.
+My Tasks 
+Create use cases that are relevant to our Datacenter use cases.
+Discuss the use cases with internal stakeholders  - Product owner, ART engineers, and Network Operations Service providers
+As the ART Datacenter Lead Engineer i need to discuss the use cases with internal stakeholders.
+
+My Knowledge base.
+Pages 14 , 15 and 16 of DEVNET-2473.pdf 
+Has a graphical representation of NDI Uses
+High-level aggregation via groupings
+Visibility and monitoring
+Analytics and Correlation
+Advisories and tools
+
+Use Cases for Monitoring
+Automation 
+Operations
+LCM
+
+and a specific example of use case
+Verify your changes before and after
+With Nexus Dashboard Insights
+
+On pages 36 to 44 there is a discussion about the CICD pipeline for Pre-change configuration checks.
+therefore NDI can be used as out pre-check tool to support ACI automation
+

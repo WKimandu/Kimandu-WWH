@@ -1,0 +1,3 @@
+198.175.71.121/32, ubest/mbest: 2/0
+    *via 172.29.57.153%htc-dc-tenant1:vrf-htc_app_centric, [20/0], 04w03d, bgp-65404, external, tag 65406
+    *via 172.29.57.157%htc-dc-tenant1:vrf-htc_app_centric, [20/0], 04w03d, bgp-65404, external, tag 65406

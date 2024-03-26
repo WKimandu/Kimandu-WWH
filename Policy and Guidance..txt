@@ -1,0 +1,18 @@
+Policy and Guidance.
+Storage / Compute - (?)
+capacity 
+Blast Radius 
+Configuration Zone
+Report (Multi Regions) 
+DR Cloud - 
+Capacity Management - (Scalability - Numbers)
+Cyber Recovery - 
+Architecture Backlog 
+Distributed versus Centralized
+SBB - Components
+Upgrade on Demand (case by case basis)
+Path to Firewall/LBs
+
+
+
+

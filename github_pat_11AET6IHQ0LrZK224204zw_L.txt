@@ -1,0 +1,7 @@
+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
+git push https://github.com/Kimandu-WWH/Kimandu-WWH
+Username: WKimandu
+Password: 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
+git push https://Wkimandu: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@github.com/Kimandu-WWH/Kimandu-WWH
+
+github.com/Kimandu-WWH/Kimandu-WWH
